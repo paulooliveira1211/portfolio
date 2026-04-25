@@ -7,7 +7,7 @@ export function Projects() {
   const projects = [
     {
       title: "Construtora",
-      description: "Site criado para um dos meus irmãos, que é construtor, para divulgação do seu trabalho.",
+      description: "Site para expandir a divulgação do seu trabalho.",
       link: "https://paulooliveira1211.github.io/construtora/",
       image: construtora,
     },
@@ -19,7 +19,7 @@ export function Projects() {
     },
     {
       title: "Lava Autos",
-      description: "Site criado para um amigo cujo uma de suas ocupações é lavagem de carros.",
+      description: "Desenvolvido para aumentar a visibilidade online e facilitar o contato com clientes da região.",
       link: "https://lava-car-beryl.vercel.app/",
       image: lavaautos,
     },

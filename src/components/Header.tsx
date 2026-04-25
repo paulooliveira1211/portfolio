@@ -8,14 +8,14 @@ export function Header() {
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
 
         {/* LOGO */}
-        <h1 className="font-bold text-lg">Paulo.dev</h1>
+        <h1 className="font-bold text-lg text-gray-200">Paulo.dev</h1>
 
         {/* MENU DESKTOP */}
-        <nav className="hidden md:flex gap-6 text-sm">
-          <a href="#" className="hover:text-blue-400">Início</a>
-          <a href="#projects" className="hover:text-blue-400">Projetos</a>
-          <a href="#about" className="hover:text-blue-400">Sobre</a>
-          <a href="#contact" className="hover:text-blue-400">Contato</a>
+        <nav className="hidden md:flex gap-6 text-sm text-gray-200">
+          <a href="#home" className="hover:text-blue-400 transition">Início</a>
+          <a href="#projects" className="hover:text-blue-400 transition">Projetos</a>
+          <a href="#about" className="hover:text-blue-400 transition">Sobre</a>
+          <a href="#contact" className="hover:text-blue-400 transition">Contato</a>
         </nav>
 
         {/* BOTÃO HAMBÚRGUER */}
@@ -32,17 +32,17 @@ export function Header() {
       {/* MENU MOBILE */}
       {open && (
         <div className="md:hidden bg-gray-900 border-t border-gray-800">
-          <nav className="flex flex-col items-center gap-4 py-4 text-sm">
-            <a href="#" onClick={() => setOpen(false)} className="hover:text-blue-400">
+          <nav className="flex flex-col items-center gap-4 py-4 text-sm text-gray-200">
+            <a href="#home" onClick={() => setOpen(false)} className="hover:text-blue-400 transition">
               Início
             </a>
-            <a href="#projects" onClick={() => setOpen(false)} className="hover:text-blue-400">
+            <a href="#projects" onClick={() => setOpen(false)} className="hover:text-blue-400 transition">
               Projetos
             </a>
-            <a href="#about" onClick={() => setOpen(false)} className="hover:text-blue-400">
+            <a href="#about" onClick={() => setOpen(false)} className="hover:text-blue-400 transition">
               Sobre
             </a>
-            <a href="#contact" onClick={() => setOpen(false)} className="hover:text-blue-400">
+            <a href="#contact" onClick={() => setOpen(false)} className="hover:text-blue-400 transition">
               Contato
             </a>
           </nav>

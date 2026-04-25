@@ -12,7 +12,7 @@ export function Home() {
           </h1>
 
           <p className="text-base sm:text-lg md:text-lg lg:text-xl text-gray-400 mb-6 max-w-md sm:max-w-lg lg:max-w-xl mx-auto lg:mx-0">
-            Desenvolvedor Front-end focado em criar sites modernos, rápidos e funcionais com React.
+            Crio sites modernos que ajudam empresas a atrair mais clientes e vender mais.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
