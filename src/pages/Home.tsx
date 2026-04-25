@@ -3,7 +3,7 @@ import profile from "../assets/profile.png"
 export function Home() {
   return (
     <div className="bg-gray-900 text-white min-h-screen flex items-center pt-20">
-      <section id="home" className="w-full max-w-3xl sm:max-w-4xl lg:max-w-6xl mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-16 items-center">
+      <section id="home" className="w-full max-w-3xl sm:max-w-4xl lg:max-w-6xl mx-auto px-4 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-16 pb-4 md:pb-0 items-center">
 
         {/* TEXTO */}
         <div className="text-center lg:text-left">
