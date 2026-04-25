@@ -16,13 +16,21 @@ export function Home() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <button className="bg-blue-600 hover:bg-blue-700 px-6 h-12 rounded-xl transition w-full sm:w-auto flex items-center justify-center">
+            <a
+              href="#projects"
+              className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-xl transition"
+            >
               Ver projetos
-            </button>
+            </a>
 
-            <button className="border border-gray-500 hover:bg-gray-800 px-6 h-12 rounded-xl transition w-full sm:w-auto flex items-center justify-center">
+            <a
+              href="https://wa.me/5515991584049"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-gray-500 px-6 py-3 rounded-xl hover:bg-gray-800 transition"
+            >
               Contato
-            </button>
+            </a>
           </div>
         </div>
 

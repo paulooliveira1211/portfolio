@@ -19,7 +19,7 @@ export function Projects() {
     },
     {
       title: "Lava Autos",
-      description: "Desenvolvido para aumentar a visibilidade online e facilitar o contato com clientes da região.",
+      description: "Site desenvolvido para lava-rápido local, com foco em atrair clientes da região e facilitar o contato.",
       link: "https://lava-car-beryl.vercel.app/",
       image: lavaautos,
     },
